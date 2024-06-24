@@ -86,6 +86,19 @@ DATABASES = {
     }
 }
 
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'USER': 'Dheeraj9595',
+#         'PASSWORD': 'Python*1234',
+#         'NAME': 'Dheeraj9595$chatappdb',
+#         'HOST': 'Dheeraj959595.mysql.pythonanywhere-services.com',
+#         'PORT': '3306',
+#     }
+# }
+
+
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels.layers.InMemoryChannelLayer"
